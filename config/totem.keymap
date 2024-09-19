@@ -25,6 +25,7 @@
 #define TVP2 6
 #define FNC  7
 #define EXT  8
+#define SETTINGS  9
 
 &mt {
   quick-tap-ms = <100>;
