@@ -107,9 +107,9 @@ label= "BASE"                              ;
 
 // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
-//                sym1_layer {
+                sym1_layer {
 // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-//label= "SYM1"                              ;
+label= "SYM1"                              ;
 // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
 //             ┃     1     ┃     2     ┃     3     ┃     4     ┃     5     ┃   ┃     6     ┃     7     ┃     8     ┃     9     ┃     0     ┃
@@ -120,21 +120,21 @@ label= "BASE"                              ;
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 //                                     ┃    FNC    ┃     ^     ┃    `      ┃   ┃     |     ┃     &     ┃     @     ┃
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-// bindings = <
+ bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-//                &kp N1       &kp N2      &kp N3       &kp N4     &kp N5         &kp N6      &kp N7       &kp N8       &kp N9       &kp N0
-//                &kp LT       &kp PRCNT   &kp LPAR    &kp LBRC    &kp LBKT    &kp EQUAL     &kp QMARK    &kp SQT      &kp MINUS &kp START
-//    &kp HASH    &kp GT       &kp DLLR    &kp RPAR    &kp RBRC    &kp RBKT    &kp SEMI      &kp EXCL     &kp DQT      &kp PLUS  &kp FSLH   &kp BSLH
-//                                         &mo FNC     &kp CARET   &kp GRAVE   &kp PIPE      &kp APMS     &kp AT
-//                        >;
-//                };
+                &kp N1       &kp N2      &kp N3       &kp N4     &kp N5         &kp N6      &kp N7       &kp N8       &kp N9       &kp N0
+                &kp LT       &kp PRCNT   &kp LPAR    &kp LBRC    &kp LBKT    &kp EQUAL     &kp QMARK    &kp SQT      &kp MINUS &kp START
+    &kp HASH    &kp GT       &kp DLLR    &kp RPAR    &kp RBRC    &kp RBKT    &kp SEMI      &kp EXCL     &kp DQT      &kp PLUS  &kp FSLH   &kp BSLH
+                                         &mo FNC     &kp CARET   &kp GRAVE   &kp PIPE      &kp APMS     &kp AT
+                        >;
+                };
 
 // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
-//                ext_layer {
+                ext_layer {
 // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-//label= "EXT"                               ;
+label= "EXT"                               ;
 // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
 //             ┃    ESC    ┃           ┃           ┃           ┃     @     ┃   ┃   PG_UP   ┃   HOME    ┃    UP     ┃    END    ┃    CAPS   ┃
@@ -145,21 +145,21 @@ label= "BASE"                              ;
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 //                                     ┃           ┃           ┃   LCTRL   ┃   ┃   ENTER   ┃   FNC     ┃           ┃
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-// bindings = <
+ bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-//                &kp ESC       &trans      &trans      &trans      &kp AT         &kp PG_UP   &kp HOME    &kp N8       &kp END     &kp CAPS 
-//                &kp LALT      &kp LGUI    &kp LSHFT  &kp LCTRL   &kp            &kp PG_DN   &kp LEFT    &kp DOWN     &kp RIGHT   &kp DEL 
-//    &none       &kp LC(Z)     &kp LC(X)   &kp LC(C)   &kp TAB     &kp LC(V)      &kp LC(BSPC) &kp BSPC   &kp INS      &kp RSHFT  &trans      &trans
-//                                        &trans        &trans      &kp LCTRL      &lt SYM RET &mo FNC     &trans
-//                        >;
-//                };
+                &kp ESC       &trans      &trans      &trans      &kp AT         &kp PG_UP   &kp HOME    &kp N8       &kp END     &kp CAPS 
+                &kp LALT      &kp LGUI    &kp LSHFT  &kp LCTRL   &kp            &kp PG_DN   &kp LEFT    &kp DOWN     &kp RIGHT   &kp DEL 
+    &none       &kp LC(Z)     &kp LC(X)   &kp LC(C)   &kp TAB     &kp LC(V)      &kp LC(BSPC) &kp BSPC   &kp INS      &kp RSHFT  &trans      &trans
+                                        &trans        &trans      &kp LCTRL      &lt SYM RET &mo FNC     &trans
+                        >;
+                };
 
 // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
-//                fnc_layer {
+                fnc_layer {
 // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-//label= "FNC"                              ;
+label= "FNC"                              ;
 // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
 //             ┃     F1    ┃     F2    ┃     F3    ┃     F4    ┃     F5    ┃   ┃     F6    ┃     F7    ┃     F8    ┃     F9    ┃    F10    ┃
@@ -170,21 +170,21 @@ label= "BASE"                              ;
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 //                                     ┃           ┃           ┃           ┃   ┃           ┃           ┃           ┃
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-// bindings = <
+ bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-//                &kp F1       &kp F2      &kp F3       &kp F4     &kp F5         &kp F6      &kp F7       &kp F8       &kp F9       &kp F10
-//                &kp LALT     &kp LGUI    &kp LSHIFT   &kp LCTRL  &kp RLAT       &kp F11    &kp F12      &kp PRNSCRN   &kp INS      &none
-//    &none       &none        &none       &none        &none      &none          &none       &none        &none        &none        &none      &none
-//                                        &none     &none          &none         &none       &none    &none
-//                        >;
-//                };
+                &kp F1       &kp F2      &kp F3       &kp F4     &kp F5         &kp F6      &kp F7       &kp F8       &kp F9       &kp F10
+                &kp LALT     &kp LGUI    &kp LSHIFT   &kp LCTRL  &kp RLAT       &kp F11    &kp F12      &kp PRNSCRN   &kp INS      &none
+    &none       &none        &none       &none        &none      &none          &none       &none        &none        &none        &none      &none
+                                        &none     &none          &none         &none       &none    &none
+                        >;
+                };
 
 // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
-//                settings_layer {
+                settings_layer {
 // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-//label= "SETTINGS"                          ;
+label= "SETTINGS"                          ;
 // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
 //             ┃BOOTLOADER ┃           ┃           ┃           ┃  BT_CLR   ┃   ┃  BT_SEL 0 ┃  BT_SEL 1 ┃ BT_SEL 2  ┃  BT_SEL 3 ┃  BT_SEL 4 ┃
@@ -195,15 +195,15 @@ label= "BASE"                              ;
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 //                                     ┃           ┃           ┃           ┃   ┃           ┃           ┃           ┃
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-// bindings = <
+ bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-//                &none        &none       &none        &none      &bt BT_CLR     &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 
-//                &kp LANG1    &kp LANG2   &kp LANG3    &kp LANG4  &kp LANG5      &none        &none        &none        &none        &bt BT_SEL 5
-//    &none       &none        &none       &none        &none      &none          &none        &none        &none        &none        &none      &none
-//                                         &none       &none       &none          &none        &none        &none
-//                        >;
-//                };
+                &none        &none       &none        &none      &bt BT_CLR     &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 
+                &kp LANG1    &kp LANG2   &kp LANG3    &kp LANG4  &kp LANG5      &none        &none        &none        &none        &bt BT_SEL 5
+    &none       &none        &none       &none        &none      &none          &none        &none        &none        &none        &none      &none
+                                         &none       &none       &none          &none        &none        &none
+                        >;
+                };
 
 // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
