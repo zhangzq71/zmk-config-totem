@@ -53,7 +53,7 @@
             combo_sym2 {
 		timeout-ms = <200>;
 		key-positions = <35 36>;
-		bindings = <&mo SYM2>;
+		bindings = <&mo SYM1>;
 	    };
 	    // both left thumb keys
 	    combo_settings {
