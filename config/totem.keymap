@@ -280,7 +280,7 @@ label= "EXT"                               ;
                 &kp ESC       &kp LGUI    &trans      &trans      &kp AT         &kp PG_UP   &kp HOME    &kp UP       &kp END     &kp CAPS 
                 &kp LALT      &kp LC(S)   &kp LSHFT  &kp LCTRL   &kp RALT        &kp PG_DN   &kp LEFT    &kp DOWN     &kp RIGHT   &kp DEL 
     &none       &kp LC(Z)     &kp LC(X)   &kp LC(C)   &kp TAB     &kp LC(V)      &kp LC(BSPC) &kp BSPC   &kp INS      &kp RSHFT  &trans      &trans
-                                        &kp LA(LS(N2)) &trans      &kp LCTRL      &lt SYM RET &mo FNC     &trans
+                                        &kp LA(LS)   &trans      &kp LCTRL      &lt SYM RET &mo FNC     &trans
                         >;
                 };
 
@@ -328,7 +328,7 @@ label= "SETTINGS"                          ;
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
                 &none        &none       &none        &none      &bt BT_CLR     &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 
-                &kp LA(LS(N1)) &kp LA(LS(N2)) &kp LA(LS(N3)) &kp LANG4  &kp LANG5      &none        &none        &none        &none        &bt BT_SEL 5
+                &kp LA(LS)   &kp LA(LS(N2)) &kp LA(LS(N3)) &kp LANG4  &kp LANG5      &none        &none        &none        &none        &bt BT_SEL 5
     &none       &none        &none       &none        &none      &none          &none        &none        &none        &none        &none      &none
                                          &none       &none       &none          &none        &none        &none
                         >;
