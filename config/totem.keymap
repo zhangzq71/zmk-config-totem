@@ -266,21 +266,21 @@ label= "SYM1"                              ;
 label= "EXT"                               ;
 // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
-//             ┃    ESC    ┃           ┃           ┃           ┃     @     ┃   ┃   PG_UP   ┃   HOME    ┃    UP     ┃    END    ┃    CAPS   ┃
+//             ┃    ESC    ┃   LGUI    ┃           ┃           ┃     @     ┃   ┃   PG_UP   ┃   HOME    ┃    UP     ┃    END    ┃    CAPS   ┃
 //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-//             ┃    LALT   ┃    LGUI   ┃  LSHIFT   ┃   LCTRL   ┃   RALT    ┃   ┃   PG_DN   ┃   LEFT    ┃   DOWN    ┃   RIGHT   ┃    DEL    ┃
+//             ┃    LALT   ┃   LC(S)   ┃  LSHIFT   ┃   LCTRL   ┃   RALT    ┃   ┃   PG_DN   ┃   LEFT    ┃   DOWN    ┃   RIGHT   ┃    DEL    ┃
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
 // ┃           ┃    LC(Z)  ┃   LC(X)   ┃   LC(C)   ┃    TAB    ┃   LC(V)   ┃   ┃ LC(BSPC)  ┃   BSPC    ┃  INSERT   ┃  RSHIFT   ┃           ┃           ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-//                                     ┃           ┃           ┃   LCTRL   ┃   ┃   ENTER   ┃   FNC     ┃           ┃
+//                                     ┃ LA(LS(2)) ┃           ┃   LCTRL   ┃   ┃   ENTER   ┃   FNC     ┃           ┃
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &kp ESC       &trans      &trans      &trans      &kp AT         &kp PG_UP   &kp HOME    &kp UP       &kp END     &kp CAPS 
-                &kp LALT      &kp LGUI    &kp LSHFT  &kp LCTRL   &kp RALT        &kp PG_DN   &kp LEFT    &kp DOWN     &kp RIGHT   &kp DEL 
+                &kp ESC       &kp LGUI    &trans      &trans      &kp AT         &kp PG_UP   &kp HOME    &kp UP       &kp END     &kp CAPS 
+                &kp LALT      &kp LC(S)   &kp LSHFT  &kp LCTRL   &kp RALT        &kp PG_DN   &kp LEFT    &kp DOWN     &kp RIGHT   &kp DEL 
     &none       &kp LC(Z)     &kp LC(X)   &kp LC(C)   &kp TAB     &kp LC(V)      &kp LC(BSPC) &kp BSPC   &kp INS      &kp RSHFT  &trans      &trans
-                                        &trans        &trans      &kp LCTRL      &lt SYM RET &mo FNC     &trans
+                                        &kp LA(LS(2))        &trans      &kp LCTRL      &lt SYM RET &mo FNC     &trans
                         >;
                 };
 
