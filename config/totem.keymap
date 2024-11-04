@@ -139,7 +139,7 @@
         email: email {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp z &kp h &kp a &kp n &kp g &kp z &kp q &kp 7 &kp 1 &kp AT &kp h &kp o &kp t &kp m &kp a &kp i &kp l &kp DOT &kp c &kp o &kp m>;
+            bindings = <&macro_tap>, <&kp z &kp h &kp a &kp n &kp g &kp z &kp q &kp 7 &kp 1 &kp AT &kp h &kp o &kp t &kp m &kp a &kp i &kp l &kp DOT &kp c &kp o &kp m>;
             label = "EMAIL";
         };
 
