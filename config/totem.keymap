@@ -87,7 +87,7 @@
             compatible = "zmk,combos";
             combo_esc {
                 timeout-ms = <50>;
-                key-positions = <0 1>;
+                key-positions = <1 2>;
                 bindings = <&kp ESC>;
             };
             combo_lpar {
@@ -100,6 +100,11 @@
                 key-positions = <3 4>;
                 bindings = <&kp RPAR>;
             };           
+            combo_caps {
+                timeout-ms = <50>;
+                key-positions = <10 11>;
+                bindings = <&kp RPAR>;
+            }; 
             combo_lbkt {
                 timeout-ms = <50>;
                 key-positions = <12 13>;
@@ -112,17 +117,17 @@
             };
             combo_lbrc {
                 timeout-ms = <50>;
-                key-positions = <22 23>;
+                key-positions = <23 24>;
                 bindings = <&kp LBRC>;
             };
             combo_rbrc {
                 timeout-ms = <50>;
-                key-positions = <23 24>;
+                key-positions = <25 26>;
                 bindings = <&kp RBRC>;
             };
             combo_bspc {
 		        timeout-ms = <50>;
-		        key-positions = <8 9>;
+		        key-positions = <7 8>;
 		        bindings = <&kp BSPC>;
 	        };
         };
@@ -174,8 +179,8 @@
                     bindings = <
        &kp EXCL            &kp AT               &kp LEFT_BRACE              &kp RIGHT_BRACE                   &kp PIPE     &kp PLUS         &kp NUMBER_7        &kp N8             &kp N9                    &kp ASTERISK
        &hm LEFT_META HASH  &kp DOLLAR           &kp LEFT_PARENTHESIS        &kp RIGHT_PARENTHESIS             &kp GRAVE    &kp MINUS        &kp NUMBER_4        &kp NUMBER_5       &kp NUMBER_6              &kp COLON
-&trans &kp PERCENT         &hm LEFT_ALT CARET   &hm LCTRL LEFT_BRACKET      &hm LEFT_SHIFT RIGHT_BRACKET      &kp TILDE    &hm RSHFT EQUAL  &hm RCTRL NUMBER_1  &hm RALT NUMBER_2  &shifthr PERIOD NUMBER_3  &kp BACKSLASH  &trans
-                                                &none                       &kp LC(BACKSPACE)                 &kp SPACE    &kp RET    &kp N0     &kp DEL
+&trans &kp PERCENT         &hm LEFT_ALT CARET   &hm LCTRL LEFT_BRACKET      &hm LEFT_SHIFT RIGHT_BRACKET      &kp TILDE    &hm RSHFT EQUAL  &hm RCTRL NUMBER_1  &hm RALT NUMBER_2  &shifthr DOT NUMBER_3  &kp BACKSLASH  &trans
+                                                &kp AMP                     &kp LC(BACKSPACE)                 &kp SPACE    &kp RET    &kp N0     &kp DEL
                         >;
                 };
 
