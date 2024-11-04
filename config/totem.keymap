@@ -185,7 +185,7 @@
        &kp EXCL            &kp AT               &kp LEFT_BRACE              &kp RIGHT_BRACE                   &kp PIPE     &kp PLUS         &kp NUMBER_7        &kp N8             &kp N9                    &kp ASTERISK
        &hm LEFT_META HASH  &kp DOLLAR           &kp LEFT_PARENTHESIS        &kp RIGHT_PARENTHESIS             &kp GRAVE    &kp MINUS        &kp NUMBER_4        &kp NUMBER_5       &kp NUMBER_6              &kp COLON
 &trans &kp PERCENT         &hm LEFT_ALT CARET   &hm LCTRL LEFT_BRACKET      &hm LEFT_SHIFT RIGHT_BRACKET      &kp TILDE    &hm RSHFT EQUAL  &hm RCTRL NUMBER_1  &hm RALT NUMBER_2  &shifthr DOT NUMBER_3  &kp BACKSLASH  &trans
-                                                &kp AMP                     &kp LC(BACKSPACE)                 &kp SPACE    &kp RET    &kp N0     &kp DEL
+                                                &kp AMPS                    &kp LC(BACKSPACE)                 &kp SPACE    &kp RET    &kp N0     &kp DEL
                         >;
                 };
 
