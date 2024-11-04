@@ -85,11 +85,16 @@
         
      combos {
             compatible = "zmk,combos";
+            combo_grave {
+                timeout-ms = <50>;
+                key-positions = <0 1>;
+                bindings = <&kp GRAVE>;
+            };
             combo_esc {
                 timeout-ms = <50>;
                 key-positions = <1 2>;
                 bindings = <&kp ESC>;
-            };
+            };           
             combo_lpar {
                 timeout-ms = <50>;
                 key-positions = <2 3>;
