@@ -166,8 +166,8 @@
         };
     };
 
-        keymap {
-                compatible = "zmk,keymap";
+    keymap {
+            compatible = "zmk,keymap";
 
                 base_layer {
                     label= "BASE";
