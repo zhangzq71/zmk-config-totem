@@ -174,7 +174,7 @@
                     bindings = <
         &kp Q              &kp W             &kp E                     &kp R                  &kp T        &kp Y        &kp U              &kp I                &kp O               &kp P       
         &kp A              &kp S             &kp D                     &shifthr LEFT_SHIFT F  &kp G        &kp H        &kp J              &kp K                &kp L               &kp SEMICOLON
-&kp DQT &weak LEFT_META Z  &weak LEFT_ALT X  &shifthr LEFT_CONTROL C   &mt LSHFT V            &kp B        &kp N        &shifthr RSHIFT M  &shifthr RCTRL COMMA &weak RIGHT_ALT DOT &kp FSLH          &weak RGUI BSLH
+&kp SQT &weak LEFT_META Z  &weak LEFT_ALT X  &shifthr LEFT_CONTROL C   &mt LSHFT V            &kp B        &kp N        &shifthr RSHIFT M  &shifthr RCTRL COMMA &weak RIGHT_ALT DOT &weak RGUI FSLH      &kp BSLH
                                             &hm LC(BACKSPACE) ESCAPE  &lt 1 TAB              &lt 2 SPACE  &lt 2 ENTER  &lt 1 BACKSPACE    &kp DEL
                         >;
                 };
@@ -183,8 +183,8 @@
                     label= "NUM";
                     bindings = <
        &kp EXCL            &kp AT               &kp LEFT_BRACE              &kp RIGHT_BRACE                   &kp PIPE     &kp PLUS         &kp NUMBER_7        &kp N8             &kp N9                    &kp ASTERISK
-       &hm LEFT_META HASH  &kp DOLLAR           &kp LEFT_PARENTHESIS        &kp RIGHT_PARENTHESIS             &kp GRAVE    &kp MINUS        &kp NUMBER_4        &kp NUMBER_5       &kp NUMBER_6              &kp COLON
-&trans &kp PERCENT         &hm LEFT_ALT CARET   &hm LCTRL LEFT_BRACKET      &hm LEFT_SHIFT RIGHT_BRACKET      &kp TILDE    &hm RSHFT EQUAL  &hm RCTRL NUMBER_1  &hm RALT NUMBER_2  &shifthr DOT NUMBER_3  &kp BACKSLASH  &trans
+       &hm LEFT_META HASH  &kp DOLLAR           &kp LEFT_PARENTHESIS        &kp RIGHT_PARENTHESIS             &kp GRAVE    &kp MINUS        &kp NUMBER_4        &kp NUMBER_5       &kp NUMBER_6              &kp SQT 
+&trans &kp PERCENT         &hm LEFT_ALT CARET   &hm LCTRL LEFT_BRACKET      &hm LEFT_SHIFT RIGHT_BRACKET      &kp TILDE    &hm RSHFT EQUAL  &hm RCTRL NUMBER_1  &hm RALT NUMBER_2  &shifthr DOT NUMBER_3  &kp BACKSLASH  &kp DQT
                                                 &kp AMPS                    &kp LC(BACKSPACE)                 &kp SPACE    &kp RET    &kp N0     &kp DEL
                         >;
                 };
