@@ -172,9 +172,9 @@
                 num_layer {
                     label= "NUM";
                     bindings = <
-&none  &kp EXCL            &kp AT               &kp LEFT_BRACE              &kp RIGHT_BRACE                   &kp PIPE     &kp PLUS         &kp NUMBER_7        &kp N8             &kp N9                    &kp ASTERISK   &none
-&none  &hm LEFT_META HASH  &kp DOLLAR           &kp LEFT_PARENTHESIS        &kp RIGHT_PARENTHESIS             &kp GRAVE    &kp MINUS        &kp NUMBER_4        &kp NUMBER_5       &kp NUMBER_6              &kp COLON      &none
-&trans &kp PERCENT         &hm LEFT_ALT CARET   &hm LCTRL LEFT_BRACKET      &hm LEFT_SHIFT RIGHT_BRACKET      &kp TILDE    &hm RSHFT EQUAL  &hm RCTRL NUMBER_1  &hm RALT NUMBER_2  &shifthr PERIOD NUMBER_3  &kp BACKSLASH  &trans
+&none  &kp EXCL            &kp AT               &kp LEFT_BRACE              &kp RIGHT_BRACE                   &kp GRAVE    &kp PLUS         &kp NUMBER_7        &kp N8             &kp N9                    &kp ASTERISK   &none
+&none  &hm LEFT_META HASH  &kp DOLLAR           &kp LEFT_PARENTHESIS        &kp RIGHT_PARENTHESIS             &kp PSCRN    &kp MINUS        &kp NUMBER_4        &kp NUMBER_5       &kp NUMBER_6              &kp COLON      &none
+&trans &kp PERCENT         &hm LEFT_ALT CARET   &hm LCTRL LEFT_BRACKET      &hm LEFT_SHIFT RIGHT_BRACKET      &kp INS      &hm RSHFT EQUAL  &hm RCTRL NUMBER_1  &hm RALT NUMBER_2  &shifthr PERIOD NUMBER_3  &kp BACKSLASH  &trans
                                                 &none                       &kp LC(BACKSPACE)                 &kp SPACE    &kp RET    &kp N0     &kp DEL
                         >;
                 };
@@ -182,10 +182,10 @@
                 nav_layer {
                     label= "NAV";
                         bindings = <
-&none  &kp F1            &kp F2           &kp F3        &kp F4        &kp INS             &kp HOME           &kp LS(H)       &kp PAGE_DOWN  &kp PG_UP     &kp LS(L)        &none  
-&none  &kp F5            &kpF6            &kp F7        &kp F8        &hm LC(V) LC(C)     &kp LEFT_ARROW     &kp DOWN        &kp UP_ARROW   &kp RIGHT     &hm LC(V) LC(C)  &none
-&trans &kp F9            &hm LALT F10     &hm LCTRL F11 &hm LSHFT F12 &kp PSCRN           &kp END            &kp LA(H)       &kp LA(TAB)    &kp PSCRN     &kp LA(L)        &email
-                                           &bt BT_CLR_ALL &bt BT_NXT    &bt BT_PRV          &trans             &trans         &trans
+&none  &kp F1            &kp F2           &kp F3        &kp F4        &kp PSCRN           &kp HOME           &kp LS(H)       &kp PAGE_DOWN  &kp PG_UP     &kp PSCRN        &none  
+&none  &kp F5            &kpF6            &kp F7        &kp F8        &kp INS             &kp LEFT_ARROW     &kp DOWN        &kp UP_ARROW   &kp RIGHT     &kp INS          &none
+&trans &kp F9            &hm LALT F10     &hm LCTRL F11 &hm LSHFT F12 &hm LC(V) LC(C)     &kp END            &kp LA(H)       &kp LA(TAB)    &kp PSCRN     &hm LC(V) LC(C)  &email
+                                           &bt BT_CLR   &bt BT_NXT    &bt BT_PRV          &trans             &trans         &trans
                         >;
                 };
         };
